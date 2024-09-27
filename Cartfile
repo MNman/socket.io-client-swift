@@ -1,1 +1,1 @@
-github "daltoniam/Starscream" ~> 3.1
+github "https://github.com/MNman/Starscream.git" == 9.0.1 #9.0.1
