@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "Socket.IO-Client-Swift"
   s.module_name  = "SocketIO"
-  s.version      = "15.2.0"
+  s.version      = "150.2.0"
   s.summary      = "Socket.IO-client for iOS and OS X"
   s.description  = <<-DESC
                    Socket.IO-client for iOS and OS X.
@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
   s.requires_arc = true
   s.source = {
-    :git => "https://github.com/socketio/socket.io-client-swift.git",
-    :tag => 'v15.2.0',
+    :git => "https://github.com/MNman/socket.io-client-swift.git",
+    :tag => '150.2.0',
     :submodules => true
   }
 
@@ -27,5 +27,5 @@ Pod::Spec.new do |s|
       'SWIFT_VERSION' => '5.0'
   }
   s.source_files  = "Source/SocketIO/**/*.swift", "Source/SocketIO/*.swift"
-  s.dependency "Starscream", "~> 3.1"
+  s.dependency "Starscream"
 end
